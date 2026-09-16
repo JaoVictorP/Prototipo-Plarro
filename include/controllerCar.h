@@ -32,6 +32,7 @@ public:
     void reverse();
     void right();
     void left();
+    void stop();
 };
 
 #endif

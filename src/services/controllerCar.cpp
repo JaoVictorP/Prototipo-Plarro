@@ -69,3 +69,9 @@ void Carro::left()
     motorEsquerdo.reverse();
     motorDireito.forward();
 }
+
+void Carro::stop()
+{
+    motorEsquerdo.stop();
+    motorDireito.stop();
+}
